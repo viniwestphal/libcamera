@@ -170,6 +170,10 @@ const CameraSensorProperties *CameraSensorProperties::get(const std::string &sen
 			.unitCellSize = { 1400, 1400 },
 			.testPatternModes = {},
 		} },
+		{ "arducam-pivariety", {
+			.unitCellSize = { 2900, 2900 },
+			.testPatternModes = {},
+		} },
 		{ "ov2685", {
 			.unitCellSize = { 1750, 1750 },
 			.testPatternModes = {
